@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Notes</title>
+
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      margin:40px;
+    }
+
+    input{
+      width:300px;
+      padding:8px;
+      font-size:16px;
+    }
+
+    button{
+      padding:8px 12px;
+      font-size:16px;
+      margin-left:5px;
+      cursor:pointer;
+    }
+
+    li{
+      margin-top:8px;
+      font-size:18px;
+    }
+
+    .deleteBtn{
+      margin-left:10px;
+      font-size:14px;
+      background:#ffdddd;
+      border:1px solid #ff8888;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<h1>My Notes</h1>
+
+<input id="noteInput" placeholder="Write a note">
+<button onclick="addNote()">Add</button>
+
+<p id="emptyMessage"></p>
+
+<ul id="notes"></ul>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
