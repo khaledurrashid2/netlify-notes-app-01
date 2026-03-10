@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "@netlify/neon": "^0.4.0"
   }
